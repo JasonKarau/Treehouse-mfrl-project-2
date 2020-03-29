@@ -2,7 +2,6 @@
   font-family: Raleway;
 }
 
-@media only screen and (min-width: 320px) {
   .head-img {
     max-width: 70%;
     margin-top: 50px;
@@ -44,22 +43,6 @@
     padding-bottom: 20px;
     margin: 0 auto;
     font-size: 18px;
-  }
-
-  li {
-    list-style: none;
-    text-decoration: none;
-    background-color: white;
-    margin-left: 13px;
-    margin-right: 13px;
-    margin-top: 5px;
-    padding: 10px;
-  }
-
-  .li-bottom {
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 30px;
   }
 
   .bottom {
@@ -120,12 +103,43 @@
     background-color: #f0f0f0;
   }
 
+@media only screen and (min-width: 320px) {
+    li {
+      list-style: none;
+      text-decoration: none;
+      background-color: white;
+      margin-left: 13px;
+      margin-right: 13px;
+      margin-top: 5px;
+      padding: 10px;
+    }
+
+    .li-bottom {
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 30px;
+    }
+
+    .li-bottom-hide {
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 30px;
+    }
+
+    .li-bottom-right {
+      display: none;
+    }
+
 @media only screen and (min-width: 768px) {
     .card {
      float: left;
      width: calc(50% - 20px);
-     margin-bottom: 0;
-   }
+     display: block;
+     margin: 20px 10px 10px 10px;
+     max-width: 100%;
+     text-align: center;
+     letter-spacing: 1px;
+     }
 
    .clearfix::after {
     content: "";
@@ -133,9 +147,20 @@
     display: table;
     }
 
-   .contact {
-   margin-bottom: 25px;
-   display: block;
+    .head-p {
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    padding-bottom: 60px;
+    line-height: 27px;
+    text-align: left;
+    }
+
+    .contact {
+      margin-bottom: 25px;
+      display: block;
    }
 
    .wrapper {
@@ -144,24 +169,24 @@
    }
 
    .card-img {
-     max-width: 90%;
+     max-width: 95%;
      padding: 0px;
      margin: 0px auto;
      display: block;
    }
 
-   .card {
-    display: block;
-    margin: 20px 10px;
-    max-width: 100%;
-    height: 250px;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-top: 5px;
-  }
+   .head-img {
+     max-width: 35%;
+     margin-top: 20px;
+     margin-bottom: 0px;
+     margin-right: 20px;
+     margin-left: 20px;
+     box-shadow: 0px 0px 7px grey;
+     float: right;
+   }
 
   h1 {
-    margin: 0 auto;
+    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -196,8 +221,172 @@
     display: block;
   }
 
-  main {
-    padding-bottom: 100px;
+  li {
+    list-style: none;
+    text-decoration: none;
+    background: none;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin: 10px auto;
+    text-align: center;
   }
- }
+
+  li:hover {
+    box-shadow: none;
+    transition: 0s ease-in-out;
+  }
+
+  a:hover {
+    text-shadow: 0px 1px 1px rgb(181, 181, 181);
+    text-decoration: underline;
+    transition: .2s ease-in-out;
+  }
+
+  .li-bottom-hide {
+    display: none;
+  }
+
+  .li-bottom-right {
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    padding: 10px 0px 0px 0px;
+    display: inline-block;
+  }
+
+  .li-bottom {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+  }
+
+  .footer-p {
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    padding-bottom: 20px;
+    line-height: 23px;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .card {
+     float: left;
+     width: calc(33.3% - 20px);
+     display: block;
+     margin: 0px 10px 0px 10px;
+     max-width: 100%;
+     text-align: center;
+     letter-spacing: 1px;
+     }
+
+     .card-img {
+       max-width: 95%;
+       padding: 0px;
+       margin: 0px auto;
+       display: block;
+     }
+
+    main {
+      border: 30px #f0f0f0;
+      border-style: solid;
+    }
+
+    .head-img {
+      max-width: 50%;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      margin-right: 60px;
+      margin-left: 60px;
+      box-shadow: 0px 0px 7px grey;
+      float: right;
+    }
+
+    .head-p {
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    padding-bottom: 60px;
+    line-height: 30px;
+    text-align: left;
+    }
+
+    li {
+      list-style: none;
+      text-decoration: none;
+      background: none;
+      display: inline-block;
+      margin: 0px 0px 0px 0px;
+      padding: 55px 30px 0px 0px;
+      text-align: center;
+      float: right;
+    }
+
+    li:hover {
+      box-shadow: none;
+      transition: 0s ease-in-out;
+    }
+
+    a:hover {
+      text-shadow: 0px 1px 1px rgb(181, 181, 181);
+      text-decoration: underline;
+      transition: .2s ease-in-out;
+    }
+
+    h1 {
+      float: left;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      margin-left: 60px;
+      display: inline-block;
+    }
+
+    nav {
+      margin-right: 30px;
+    }
+
+    .bottom {
+      margin-bottom: 30px;
+      margin-top: 20px;
+      margin-right: 0px;
+    }
+
+    .li-bottom-right {
+      margin-left: 10px;
+      margin-right: 25px;
+      margin-bottom: 30px;
+      margin-top: 20px;
+      padding: 0px 0px 0px 0px;
+      list-style: none;
+    }
+
+    .li-bottom {
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 30px;
+      margin-top: 20px;
+    }
+
+    .footer-p {
+      margin-left: 200px;
+      margin-right: 200px;
+      margin-top: 7px;
+      margin-bottom: 0px;
+      font-size: 18px;
+      padding-bottom: 20px;
+      line-height: 23px;
+    }
+
+    h4 {
+      padding-top: 15px;
+      padding-bottom: 20px;
+      margin: 0 auto;
+      font-size: 18px;
+      display: block;
+    }
+
 }
