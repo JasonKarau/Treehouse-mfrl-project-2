@@ -2,6 +2,9 @@
   font-family: Raleway;
 }
 
+  img {
+    margin: 0px auto;
+  }
   .head-img {
     max-width: 70%;
     margin-top: 50px;
@@ -11,8 +14,6 @@
 
   .card-img {
     max-width: 90%;
-    padding: 0px;
-    margin: 0px auto;
   }
 
   .wrapper {
@@ -71,14 +72,6 @@
     line-height: 23px;
   }
 
-  .main-p {
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: 16px;
-    padding-bottom: 20px;
-    line-height: 23px;
-  }
-
   .footer-p {
     margin-left: 20px;
     margin-right: 20px;
@@ -102,6 +95,7 @@
   footer {
     background-color: #f0f0f0;
   }
+
 
 @media only screen and (min-width: 320px) {
     li {
@@ -128,6 +122,18 @@
 
     .li-bottom-right {
       display: none;
+    }
+
+    .main-p {
+      max-width: 100%;
+      font-size: 16px;
+      padding-bottom: 20px;
+      line-height: 23px;
+      text-align: center;
+      margin-right: 30px;
+      margin-left: 30px;
+      display: block;
+      resize: horizontal;
     }
 
 @media only screen and (min-width: 768px) {
@@ -207,15 +213,6 @@
     display: block;
   }
 
-  .main-p {
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: 16px;
-    padding-bottom: 20px;
-    line-height: 23px;
-    display: block;
-  }
-
   footer {
     background-color: #f0f0f0;
     display: block;
@@ -271,6 +268,24 @@
     line-height: 23px;
   }
 
+  .main-p {
+    width: 70%;
+    font-size: 16px;
+    padding-bottom: 10px;
+    line-height: 23px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  h3 {
+    max-width: 80%;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
   @media only screen and (min-width: 1024px) {
     .card {
      float: left;
@@ -305,14 +320,14 @@
     }
 
     .head-p {
-    margin-left: 60px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    font-size: 25px;
-    padding-bottom: 60px;
-    line-height: 30px;
-    text-align: left;
+      margin-left: 60px;
+      margin-right: 20px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      font-size: 25px;
+      padding-bottom: 60px;
+      line-height: 30px;
+      text-align: left;
     }
 
     li {
@@ -323,6 +338,16 @@
       margin: 0px 0px 0px 0px;
       padding: 55px 30px 0px 0px;
       text-align: center;
+      float: left;
+    }
+
+    .right-li {
+      list-style: none;
+      text-decoration: none;
+      background: none;
+      display: inline;
+      margin: 0px 0px 0px 0px;
+      padding: 55px 30px 0px 0px;
       float: right;
     }
 
@@ -379,6 +404,24 @@
       font-size: 18px;
       padding-bottom: 20px;
       line-height: 23px;
+    }
+
+    .main-p {
+      max-width: 80%;
+      font-size: 16px;
+      padding-bottom: 60px;
+      line-height: 23px;
+      justify-content: center;
+      display: inline-flex;
+    }
+
+    h3 {
+      max-width: 100%;
+      justify-content: center;
+      display: inline-block;
+      margin-top: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
     }
 
     h4 {
