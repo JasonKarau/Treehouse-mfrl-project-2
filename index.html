@@ -10,17 +10,18 @@
   <title>Project 2</title>
 </head>
 
-<body id="#top">
+<body id="top">
   <div class="wrapper">
     <header class="main-header">
       <h1 class="clearfix">Jason Karau</h1>
 
       <nav class="clearfix">
-        <ul>
-          <li class="right-li"><a href="">HOME</a></li>
-          <li class="right-li"><a href="">PORTFOLIO</a></li>
-          <li class="right-li"><a href="">CONTACT</a></li>
-        <ul>
+        <ul class="fl-right">
+          <li class="lg-li"><a href="#top">HOME</a></li>
+          <li class="lg-li"><a href="#port">PORTFOLIO</a></li>
+          <li class="lg-li"><a href="#skill">SKILLS</a></li>
+          <li class="lg-li"><a href="#contact">CONTACT</a></li>
+        </ul>
       </nav>
 
       <img class="head-img" src="images/responsive-layout-profile.png" alt="responsive portfolio picture">
@@ -32,48 +33,69 @@
     </header>
 
     <main class="clearfix">
-      <h2>PORTFOLIO</h2>
+      <h2 id="port">PORTFOLIO</h2>
 
       <div class="card">
-        <img class="card-img" src="images/portfolio-1.png">
+        <img class="card-img" src="images/portfolio-1.png" alt="Marketing image">
         <h3>Marketing Page</h3>
         <p class="main-p">This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
       </div>
 
       <div class="card">
-        <img class="card-img" src="images/portfolio-2.png">
+        <img class="card-img" src="images/portfolio-2.png" alt="Search Page Image">
         <h3>Search Page</h3>
         <p class="main-p">This project searches through a specific database to find information that user is trying to look up.</p>
       </div>
 
       <div class="card">
-        <img class="card-img" src="images/portfolio-3.png">
+        <img class="card-img" src="images/portfolio-3.png" alt="Travel App Image">
         <h3>Travel App</h3>
         <p class="main-p">This project comapres travel times based on different transportation methods and tells you the best one.</p>
       </div>
 
 
       <div class="card">
-        <img class="card-img" src="images/portfolio-4.png">
+        <img class="card-img" src="images/portfolio-4.png" alt="Map Of Favorite Spots Image">
         <h3>Map of Favorite Spots</h3>
         <p class="main-p">This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
       </div>
 
       <div class="card">
-        <img class="card-img" src="images/portfolio-5.png">
+        <img class="card-img" src="images/portfolio-5.png" alt="Photo Gallery Image">
         <h3>Photo Gallery</h3>
         <p class="main-p">This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
       </div>
 
       <div class="card clearfix">
-        <img class="card-img" src="images/portfolio-6.png">
+        <img class="card-img" src="images/portfolio-6.png" alt="Calculator Image">
         <h3>Calculator</h3>
         <p class="main-p">Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+      </div>
+
+      <hr id="skill" color="white">
+      <h2 class="sec-h2">SKILLS</h2>
+
+      <div class="card">
+        <img class="card-img" src="images/html.jpg" alt="HTML Image">
+        <h3>HTML</h3>
+        <p class="main-p">I am HTML efficient as I have completed four classes on Web Development and Web Production</p>
+      </div>
+
+      <div class="card">
+        <img class="card-img" src="images/css.jpg" alt="Css Image">
+        <h3>CSS</h3>
+        <p class="main-p">I am CSS efficient as I have completed four classes on Web Development and Web Production</p>
+      </div>
+
+      <div class="card clearfix">
+        <img class="card-img" src="images/js.png" alt="Javascirpt Image">
+        <h3>JavaScript</h3>
+        <p class="main-p">As I am a novice in JavaScript I am eager to learn more while working with a great team!</p>
       </div>
     </main>
 
     <footer class="clearfix">
-      <h4>CONTACT</h4>
+      <h4 id="contact">CONTACT</h4>
       <div class="contact">
         <p class="footer-p">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
         <p class="footer-p">Phone &ensp;<b>+1 (111)555-1234</b></p>
@@ -82,12 +104,14 @@
 
       <hr>
 
+      <p class="li-bottom">Jason Karau</p>
+      <p class="li-bottom-hide"><a href="#top">BACK TO TOP</a></p>
       <nav class="bottom">
-        <p class="li-bottom"><b>Jason Karau</p>
-        <p class="li-bottom-hide"><a href="#top">BACK TO TOP</a></p>
-        <li class="li-bottom-right"><a href="">HOME</a></li>
-        <li class="li-bottom-right"><a href="">PORTFOLIO</a></li>
-        <li class="li-bottom-right"><a href="">CONTACT</a></li>
+        <ul>
+          <li class="li-bottom-right"><a href="#top">HOME</a></li>
+          <li class="li-bottom-right"><a href="#port">PORTFOLIO</a></li>
+          <li class="li-bottom-right"><a href="#contact">CONTACT</a></li>
+        </ul>
       </nav>
     </footer>
   </div>
