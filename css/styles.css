@@ -1,6 +1,6 @@
-* {
-  font-family: Raleway;
-}
+  * {
+    font-family: Raleway;
+  }
 
   img {
     margin: 0px auto;
@@ -115,50 +115,48 @@
     border-radius: 5px;
   }
 
-    .li-bottom {
-      margin-left: 25px;
-      margin-right: 25px;
-      margin-bottom: 30px;
-      font-weight: bold;
-      float: left;
-      display: inline;
-    }
+  .li-bottom {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    float: left;
+    display: inline;
+  }
 
-    .li-bottom-hide {
-      display: inline;
-      float: right;
-      margin-bottom: 20px;
-      margin-top: 16px;
-      margin-right: 25px;
-    }
+  .li-bottom-hide {
+    display: inline;
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    margin-right: 25px;
+  }
 
-    .li-bottom-right {
-      display: none;
-    }
+  .li-bottom-right {
+    display: none;
+  }
 
-    .bottom {
-      margin-bottom: 20px;
-      margin-top: 0px;
-      margin-right: 25px;
-    }
+  .bottom {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-right: 25px;
+  }
 
-    .main-p {
-      font-size: 16px;
-      padding-bottom: 20px;
-      line-height: 23px;
-      text-align: center;
-      margin-right: 20px;
-      margin-left: 20px;
-      display: block;
-    }
+  .main-p {
+    font-size: 16px;
+    padding-bottom: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: block;
+  }
 
-    .clearfix::after {
-     content: "";
-     clear: both;
-     display: table;
-     }
-
-
+  .clearfix::after {
+   content: "";
+   clear: both;
+   display: table;
+   }
 
 @media only screen and (min-width: 768px) {
       .card {
@@ -328,7 +326,7 @@
       margin-left: 50px;
       margin-right: 50px;
     }
-}
+  }
 
   @media only screen and (min-width: 1024px) {
     .card {
@@ -499,5 +497,4 @@
         margin-left: 10px;
         margin-right: 10px;
       }
-
-}
+  }
